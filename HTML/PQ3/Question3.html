@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Feedback Form</h1>
+    <form action="\action">
+        <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Write your name">
+        </div>
+        <br>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Write your email">
+        </div>
+        <br>
+        <div>
+            <label for="message">Message</label>
+            <br>
+            <textarea name="text_area" id="message" column="30" row="4"></textarea>
+        </div>
+        <br>
+        <div>
+            Rate us out of 5:
+            <div>
+                <input type="radio" id="opt_1" name="ratings" value="one">
+                <label for="opt_1">1</label>
+            </div>
+            <div>
+                <input type="radio" id="opt_2" name="ratings" value="two">
+                <label for="opt_2">2</label>
+            </div>
+            <div>
+                <input type="radio" id="opt_3" name="ratings" value="three">
+                <label for="opt_3">3</label>
+            </div>
+            <div>
+                <input type="radio" id="opt_4" name="ratings" value="four">
+                <label for="opt_4">4</label>
+            </div>
+            <div>
+                <input type="radio" id="opt_5" name="ratings" value="five">
+                <label for="opt_5">5</label>
+            </div>
+        </div>
+        <br>
+        <div>
+            <button type="submit">Send your massage</button>
+        </div>
+    </form>
+</body>
+</html>
