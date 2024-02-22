@@ -1,0 +1,30 @@
+*{
+    font-family: "courier new";
+}
+h1, h3{
+    color: #b92b27;
+}
+p a{
+    color: purple;
+    background-color: yellow;
+}
+nav ul li a{
+    color: hotpink;
+}
+div>input{
+    background-color: darksalmon;
+}
+input[type="text"]{
+    color: brown;
+}
+input[type="password"]{
+    color: green;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+button:active{
+    background-color: purple;
+}
