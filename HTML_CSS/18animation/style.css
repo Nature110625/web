@@ -1,0 +1,20 @@
+.box{
+    height: 100px;
+    width: 300px;
+    background-color: pink;
+    /* animation: fontAnimation 5s ease-in 0 infinite alternate; */
+    animation: colorAnimation 5s ease-in 0s infinite alternate;
+    /* animation: widthAnimation 5s ease-in 0 infinite alternate; */
+}
+@keyframes colorAnimation{
+    from{
+        background-color: pink;
+        width: 10px;
+        font-size: 10px;
+    }
+    to{
+        background-color: orange;
+        width: 400px;
+        font-size: 40px;
+    }
+}
