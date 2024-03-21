@@ -55,17 +55,129 @@
             <div class="sticky-nav">
                 <div class="stickey-nav-icons">
                     <img src="./assets/backward_icon.png">
-                    <img src="./assets/forward_icon.png">   
+                    <img src="./assets/forward_icon.png" class="hide">   
                 </div>
                 <div class="stickey-nav-options">
-                    <button class="badge">Explore Premium</button>
-                    <button class="badge"><i class="fa-regular fa-circle-down"></i>Install App</button>
-                    <i class="fa-regular fa-user"></i>
+                    <button class="badge nav-item hide">Explore Premium</button>
+                    <button class="badge nav-item dark-badge"><i class="fa-regular fa-circle-down" style="margin-right:5px"></i>Install App</button>
+                    <i class="fa-regular fa-user nav-item"></i>
                 </div>
             </div>
-            <div class="cards"></div>
+
+            <h2>Recently Played</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./assets/card1img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily updates of the most played...</p>
+                </div>
+            </div>
+
+            <h2>Trending now near you</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./assets/card2img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily updates of the most played...</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/card3img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily updates of the most played...</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/card4img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily updates of the most played...</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/card3img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily updates of the most played...</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/card4img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily updates of the most played...</p>
+                </div>
+            </div>
+
+            <h2>Featured Charts</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./assets/card5img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily updates of the most played...</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/card6img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily updates of the most played...</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/card1img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily updates of the most played...</p>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="line">
+
+                </div>
+            </div>
         </div>
-        <div class="music-player">music player</div>
+        <div class="music-player">
+            <div class="album">
+                <div class="img-discription">
+                    <img src="./assets/card2img.jpeg" class="song-img">
+                    <div class="song-name">
+                        <div class="song-title song">Mahiye inna sona</div>
+                        <div class="song-singer song">Darshan Raval</div>
+                    </div>
+                </div>
+                <i class="fa-regular fa-heart like-icon song" style="text-decoration: none"></i>
+            </div>
+            <div class="player">
+                <div class="player-controls">
+                    <img src="./assets/player_icon1.png" class="player-control-icons">
+                    <img src="./assets/player_icon2.png" class="player-control-icons">
+                    <img src="./assets/player_icon3.png" class="player-control-icons" style="opacity:1; height:2rem">
+                    <img src="./assets/player_icon4.png" class="player-control-icons">
+                    <img src="./assets/player_icon5.png" class="player-control-icons">
+                </div>
+                <div class="playback-bar">
+                    <span class="curr-time">00:00</span>
+                    <input type="range" min="0" max="100" class="progress-bar" step="1">
+                    <span class="tot-time">3:33</span>
+                </div>
+            </div>
+            <div class="control">
+                <div class="img-div">
+                    <img src="./assets/img1.png" class="control-icon">
+                </div>
+                <div class="img-div">
+                    <img src="./assets/img2.png" class="control-icon">
+                </div>
+                <div class="img-div">
+                    <img src="./assets/img3.png" class="control-icon">
+                </div>
+                <div class="img-div">
+                    <img src="./assets/img4.png" class="control-icon">
+                </div>
+                <div class="img-div">
+                    <img src="./assets/img5.png" class="control-icon">
+                </div>
+                <div class="img-div">
+                    <input type="range" min="0" max="100" class="volume-bar" step="1">
+                </div>
+                <div class="img-div">
+                    <img src="./assets/img6.png" class="control-icon">
+                </div>
+                <div class="img-div">
+                    <img src="./assets/img7.png" class="control-icon">
+                </div>
+            </div>
+        </div>
     </div>   
 </body>
 </html>
