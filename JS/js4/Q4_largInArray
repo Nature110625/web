@@ -1,0 +1,6 @@
+let numArr=[1, 88, 46, 55, 66, 22, 32];
+let l=numArr[0];
+for(items of numArr)
+    if(items>l)
+        l=items;
+console.log("The largest number in the given array is ", l);
