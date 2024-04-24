@@ -1,0 +1,14 @@
+{
+  "name": "express",
+  "version": "1.0.0",
+  "description": "a package.json file for express directory",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Prakriti",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
