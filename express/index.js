@@ -13,8 +13,9 @@ app.listen(port, ()=>{
 // });
 
 app.get("/", (req, res)=>{
-    res.send("You contacted root path");
+    res.send("Hello, I am root");
 });
-app.get("/", (req, res)=>{
-
-})
+app.get("/:username/:id", (req, res)=>{
+    console.log(req.params);
+    res.send("You contacted apple path");
+});
