@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>verify password</title>
+</head>
+<body>
+    <h2>To delete enter your password</h2>
+    <form method="post" action="/user/<%= id %>?_method=DELETE">
+        <h4>id: <%= id %></h4>
+        <label>
+            password: 
+            <input type="password" name="epassword">
+        </label>
+        <button>delete</button>
+    </form>
+    
+</body>
+</html>
