@@ -6,21 +6,21 @@
     <title>Wander Lust</title>
 </head>
 <body>
-    <h3>Create a new Listing</h3>
-    <form method="POST" action="/listings">
-        <input name="listing[title]" value="<%= listing.title %>" type="text">
+    <h3> Edit your Listing</h3>
+    <form method="POST" action="/listings/<%=listing._id%>?_method=PUT">
+        <input name="list[title]" value="<%= listing.title %>" type="text">
         <br><br>
-        <textarea name="listing[description]" value="listing.description" type="text"></textarea>
+        <textarea name="list[description]" type="text"><%= listing.description %></textarea>
         <br><br>
-        <input name="listing[image]" value="listing.image" type="text">
+        <input name="list[image]" value="<%= listing.image %>" type="text">
         <br><br>
-        <input name="listing[price]" value="listing.price" type="number">
+        <input name="list[price]" value="<%= listing.price %>" type="number">
         <br><br>
-        <input name="listing[country]" value="listing.country" type="text">
+        <input name="list[country]" value="<%= listing.country %>" type="text">
         <br><br>
-        <input name="listing[location]" value="listing.location" type="text">
+        <input name="list[location]" value="<%= listing.location %>" type="text">
         <br><br>
-        <button>Add</button>
+        <button>Edit</button>
     </form>
 </body>
 </html>
