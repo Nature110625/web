@@ -11,11 +11,8 @@ const listingSchema= new Schema({
         type: String,
     },
     image: {
-        type: String,
-        default: "https://images.hdqwalls.com/wallpapers/gradient-texture-abstract-4k-ar.jpg",
-        set:(v)=> v===" "?
-        "https://images.hdqwalls.com/wallpapers/gradient-texture-abstract-4k-ar.jpg"
-        : v,
+        url: String,
+        filename: String
     },
     price: {
         type: Number,
