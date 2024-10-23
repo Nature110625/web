@@ -32,12 +32,12 @@ module.exports.isOwner=async(req, res, next)=>{
 module.exports.validateListing=(req,res,next)=>{
     
     let {error}=listingSchema.validate(req.body);
-    console.log("hello");
     if(error){
         let errMsg=error.details.map((el)=>el.message).join(",");
+        console.log(req.file);
         throw new ExpressError(400, errMsg);
     } else{
-        console.log("hello2");
+        
         next();
     }
 };
